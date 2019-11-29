@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             val height: Double = HeightNum.text.toString().toDouble()
             val bmi: Double = calculateBMI(weight, height)
 
-            //todo : display image
+            //todo : display image and things
 //            if(bmi<18.50){
 //                imgResult.setImageResource(R.drawable.under)
 //            }
